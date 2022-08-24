@@ -141,7 +141,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 600px){
+@media all and (min-width: 480px){
   header {
     display: flex; 
     flex-direction: row; 
@@ -202,6 +202,10 @@ footer p {
 
   #about p{
     padding-left: 10px;
+  }
+  .last{
+    padding: 0px 80px 0px 0px; 
+    justify-content: flex-start
   }
   
 
