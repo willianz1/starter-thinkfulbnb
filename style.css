@@ -6,6 +6,7 @@ body {
   padding: 0;
 }
 
+
 h2 {
   font-size: 26px;
   font-weight: 400;
@@ -60,16 +61,21 @@ main img {
 
 header {
   background-color: #ff385c;
-  padding: 20px 20px 0 20px;
+  padding: 20px 0px 0 20px;
   text-align: center;
+  width: 100%;
 }
 
 
 .logo {
+  display: flex;
+  justify-content: center;
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: -webkit-xxx-large;
   color: #fff;
 }
+
+
 header nav ul {
   display: flex; 
   flex-direction: row; 
@@ -90,6 +96,11 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #bdbdbd;
   text-decoration: none;
+}
+
+#menu{
+  padding-bottom: 20px;
+  margin: 0;
 }
 
 /* -------  Search Form ------- */
@@ -150,8 +161,12 @@ footer p {
   }
   #menu{
     display: flex; 
-    padding: 0 0 0 0;
+    padding: 0px 0px 0px 0px;
     align-items: center;
+  }
+  .ul #menu{
+    padding: 0; 
+    margin: 0px; 
   }
   .logo{
     font-size: 35px;
