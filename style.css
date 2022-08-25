@@ -6,7 +6,6 @@ body {
   padding: 0;
 }
 
-
 h2 {
   font-size: 26px;
   font-weight: 400;
@@ -61,21 +60,18 @@ main img {
 
 header {
   background-color: #ff385c;
-  padding: 20px 0px 0 20px;
+  padding: 20px 20px 0 20px;
   text-align: center;
-  width: 100%;
 }
 
 
 .logo {
-  display: flex;
+  display: flex; 
   justify-content: center;
   font-family: "Pangolin", cursive;
-  font-size: -webkit-xxx-large;
+  font-size: 72px;
   color: #fff;
 }
-
-
 header nav ul {
   display: flex; 
   flex-direction: row; 
@@ -96,11 +92,6 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #bdbdbd;
   text-decoration: none;
-}
-
-#menu{
-  padding-bottom: 20px;
-  margin: 0;
 }
 
 /* -------  Search Form ------- */
@@ -159,18 +150,11 @@ footer p {
     justify-content: space-between;
     align-items: center;
   }
-<<<<<<< HEAD
   #menu{
     display: flex; 
-    padding: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
     align-items: center;
   }
-  .ul #menu{
-    padding: 0; 
-    margin: 0px; 
-  }
-=======
->>>>>>> parent of 135c8a2 (changed a few looks)
   .logo{
     font-size: 35px;
     display: flex; 
@@ -191,7 +175,13 @@ footer p {
     height: 60px;
   }
   main img{
-    width: 240px;
+    width: 480px;
+  }
+
+  #ideas{
+    margin: 0;
+    padding: 20px 0 20px 0;
+
   }
 
   #ideas img{
@@ -203,8 +193,9 @@ footer p {
   .row{
     display: flex; 
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+
   }
   .row img:first-child{
     padding: 10px;
