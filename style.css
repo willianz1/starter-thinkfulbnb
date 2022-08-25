@@ -100,6 +100,7 @@ form {
   flex-direction: column;
   border: 2px solid #ff385c;
   padding: 10px;
+  flex-wrap: wrap;
 }
 
 form label {
@@ -167,7 +168,7 @@ footer p {
   }
   form{
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   form button{
     font-size: 24px;
@@ -175,7 +176,12 @@ footer p {
     height: 60px;
   }
   main img{
-    width: 480px;
+    width: 100%;
+  }
+
+  .item{
+    flex: 1;
+    margin: 10px; 
   }
 
   #ideas{
@@ -213,6 +219,7 @@ footer p {
     max-width: 120%;
     max-height: 120%;
   }
+  
 
   #about p{
     padding-left: 10px;
