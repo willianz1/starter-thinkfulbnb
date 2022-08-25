@@ -69,7 +69,7 @@ header {
   display: flex; 
   justify-content: center;
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 20vw;
   color: #fff;
 }
 header nav ul {
