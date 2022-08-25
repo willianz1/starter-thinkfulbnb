@@ -159,6 +159,7 @@ footer p {
     justify-content: space-between;
     align-items: center;
   }
+<<<<<<< HEAD
   #menu{
     display: flex; 
     padding: 0px 0px 0px 0px;
@@ -168,6 +169,8 @@ footer p {
     padding: 0; 
     margin: 0px; 
   }
+=======
+>>>>>>> parent of 135c8a2 (changed a few looks)
   .logo{
     font-size: 35px;
     display: flex; 
@@ -188,13 +191,7 @@ footer p {
     height: 60px;
   }
   main img{
-    width: 480px;
-  }
-
-  #ideas{
-    margin: 0;
-    padding: 20px 0 20px 0;
-
+    width: 240px;
   }
 
   #ideas img{
@@ -206,9 +203,8 @@ footer p {
   .row{
     display: flex; 
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-
   }
   .row img:first-child{
     padding: 10px;
